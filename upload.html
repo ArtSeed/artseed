@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그림씨앗 - 그림</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>그림 올리기</h1>
+        <nav>
+            <a href="index.html">홈</a>
+            <a href="upload.html">그림 올리기</a>
+            <a href="about.html">소개</a>
+            <a href="downloads.html">다운로드</a>
+            <a href="contact.html">문의</a>
+        </nav>
+    </header>
+    <main>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="file">그림 파일 업로드:</label>
+            <input type="file" id="file" name="file" accept="image/*">
+            <button type="submit">업로드</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 그림씨앗</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

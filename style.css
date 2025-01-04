@@ -1,0 +1,68 @@
+/* 전체 기본 스타일 */
+body {
+    font-family: 'Arial' , sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header nav {
+    margin-top: 0.5rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* 메인 컨텐츠 스타일 */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* 버튼 스타일 */
+button {
+    background-color: #45a049;
+}
+
+/* 링크 스타일 */
+a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 푸터 스타일 */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
